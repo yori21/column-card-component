@@ -144,6 +144,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  background-color: var(--verylightgraybackgroundheadingsbuttons);
 }
 
 .container {
@@ -213,6 +214,7 @@ body {
   border-radius: 3rem;
   width: 7.5rem;
   height: 2.5rem;
+  background-color: var(--verylightgraybackgroundheadingsbuttons);
 }
 
 .container .box-1 button {
