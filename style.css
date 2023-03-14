@@ -209,25 +209,31 @@ body {
   color: var(--transparentwhiteparagraphs);
 }
 
-.container button {
-  border: none;
-  border-radius: 3rem;
-  width: 7.5rem;
-  height: 2.5rem;
+.container a {
   background-color: var(--verylightgraybackgroundheadingsbuttons);
+  display: flex;
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-.container .box-1 button {
+.container .box-1 a {
   color: var(--brightorange);
 }
-.container .box-2 button {
+.container .box-2 a {
   color: var(--darkcyan);
 }
-.container .box-3 button {
+.container .box-3 a {
   color: var(--verydarkcyan);
 }
 
-.container button:hover {
+.container a:hover {
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
@@ -250,7 +256,7 @@ body {
     font-size: 0.75rem;
   }
 
-  .container button {
-    margin-top: 3.5rem;
+  .container a {
+    margin-top: 4rem;
   }
 }
